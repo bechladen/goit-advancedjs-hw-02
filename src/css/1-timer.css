@@ -31,6 +31,8 @@
   margin-top: 20px;
   margin-left: 30px;
   margin-right: 10px;
+  border: 1px solid;
+  border-radius: 2px;
 }
 
 button[data-start] {
@@ -39,6 +41,9 @@ button[data-start] {
   background-color: #ccc;
   color: #999;
   cursor: not-allowed;
+  transition: background-color 0.3s, color 0.3s;
+  border: 1px solid black;
+  border-radius: 2px;
 }
 
 button[data-start]:enabled {

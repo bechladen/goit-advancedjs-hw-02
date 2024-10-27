@@ -1,1 +1,57 @@
 @import url('./common.css');
+
+form.form {
+  margin-top: 20px;
+  margin-left: 30px;
+  max-width: 320px;
+  width: 100%;
+}
+
+label.delay,
+legend {
+  font-size: 18px;
+}
+
+input[type='number'] {
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  height: 40px;
+  font-size: 18px;
+  border: 1px solid;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 100%;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  margin-bottom: 10px;
+  justify-content: center;
+  border: 1px solid;
+  border-radius: 2px;
+  padding: 15px;
+}
+
+label input[type='radio'] {
+  margin-right: 10px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+button[type='submit'] {
+  padding: 5px 20px;
+  color: white;
+  background-color: #007bff;
+  border: 1px solid black;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  width: 100%;
+}
+
+button[type='submit']:hover {
+  background-color: #0056b3;
+}
