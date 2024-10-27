@@ -1,0 +1,52 @@
+@import url('./common.css');
+
+.timer {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-size: 36px;
+  text-align: center;
+}
+.label {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+
+#datetime-picker {
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+button[data-start] {
+  font-size: 18px;
+  padding: 5px 20px;
+  background-color: #ccc;
+  color: #999;
+  cursor: not-allowed;
+}
+
+button[data-start]:enabled {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button[data-start]:hover:enabled {
+  background-color: #0056b3;
+}
